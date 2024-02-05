@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  flash_card_generation:  # You can name your service here, e.g., "web" or "app"
+    working_dir: /app/src
+    build: .
+    image: card-generation  # Optional: name the image
+    ports:
+      - "5000:5000"  # Map the port from the container to your host, adjust if your app uses a different port
+    volumes:
+      - ./src:/app/src  # Mount the local 'src' directory to '/app' in the container
+    command: python3 -m flask run --host=0.0.0.0 --reload  # Adjust the command as needed for your application

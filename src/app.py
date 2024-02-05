@@ -1,5 +1,5 @@
 from flask import Flask, request, Response
-from src.tasks.FlashCardGeneration import GenerateFlashCards
+from tasks.FlashCardGeneration import GenerateFlashCards
 
 app = Flask(__name__)
 

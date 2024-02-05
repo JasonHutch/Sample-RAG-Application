@@ -1,5 +1,5 @@
-from src.db.db_util import GetContextFromDb
-from src.constants import OPEN_AI_API_KEY, FLASH_CARD_PROMPT_TEMPLATE
+from db.db_util import GetContextFromDb
+from constants import OPEN_AI_API_KEY, FLASH_CARD_PROMPT_TEMPLATE
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 

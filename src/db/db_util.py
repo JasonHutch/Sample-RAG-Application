@@ -1,4 +1,4 @@
-from src.util import chunk_pdf
+from util import chunk_pdf
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings.sentence_transformer import (
     SentenceTransformerEmbeddings,
