@@ -1,12 +1,12 @@
 CHROMA_PATH='chroma'
-OPEN_AI_API_KEY='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'
+OPEN_AI_API_KEY='ENTER_OPEN_API_KEY'
 FLASH_CARD_PROMPT_TEMPLATE = """
 
-Create 20 flash cards based on the following context:
+Anwser my question based on this context:
 
 {context}
 
 ---
 
-Create flash cards in a question anwser format based on the above context that helps a user better understand:{question} these responses should be formatted in json.
+Anwser this question {question}.
 """
